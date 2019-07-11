@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Procedure">
+      <UniqueIdentifier>{90eab24a-9f98-48d5-8368-952c37174e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{a3bc9216-9a70-439d-9340-b92e8139a56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\xlbetinyxml">
+      <UniqueIdentifier>{0c7437d0-75f5-456f-b82f-47af426c4467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{2e230dc2-f57f-40fe-9976-754e0c05d71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{65306be3-2758-422d-bfde-71fcd441369c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Procedure\GameProcedure.cpp">
+      <Filter>Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Procedure\GameScene.cpp">
+      <Filter>Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Procedure\Procedure.cpp">
+      <Filter>Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\xlbetinyxml\tinystr.cpp">
+      <Filter>Util\xlbetinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\xlbetinyxml\tinyxml.cpp">
+      <Filter>Util\xlbetinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\xlbetinyxml\tinyxmlerror.cpp">
+      <Filter>Util\xlbetinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\xlbetinyxml\tinyxmlparser.cpp">
+      <Filter>Util\xlbetinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\EventManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\Ini.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\OsApi.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\TimeManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\VariableManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\XlbeDefualtResourceProvider.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\XlbeEncryptResourceProvider.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\XlbeRawDataContainer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\XlbeTinyXMLParser.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\XlbeXmlAttributes.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\XlbeXmlHandler.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\XlbeXmlSerializer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Procedure\ProcedureScene.cpp">
+      <Filter>Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\WorldRect.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectMonster.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectPlayerMySelf.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectPlayerOther.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectCharacter.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectDynamic.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectStatic.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectPlayerMySelfView.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectView.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Map\GameMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Map\GameMapView.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectPlayerBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectPlayerBasicBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectPlayerBasicBulletView.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectMonsterBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectMoveAimingBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectMoveAimingBulletView.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectDirectionalBullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectDirectionalBulletView.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectMonsterView.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectBoss.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\ObjectBossView.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Procedure\GameProcedure.h">
+      <Filter>Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Procedure\GameScene.h">
+      <Filter>Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Procedure\Procedure.h">
+      <Filter>Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\xlbetinyxml\tinystr.h">
+      <Filter>Util\xlbetinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\xlbetinyxml\tinyxml.h">
+      <Filter>Util\xlbetinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\CountTimer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\Define.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\EventManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\Ini.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\OsApi.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\Prereqs.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\Singleton.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\TimeManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\VariableManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\XlbeDefualtResourceProvider.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\XlbeEncryptResourceProvider.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\XlbeRawDataContainer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\XlbeResourceProvider.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\XlbeTinyXMLParser.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\XlbeXmlAttributes.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\XlbeXmlHandler.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\XlbeXmlSerializer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\Types.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Procedure\ProcedureScene.h">
+      <Filter>Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\WorldPoint.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\WorldRect.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\WorldSize.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectMonster.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectPlayerMySelf.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectPlayerOther.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectCharacter.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectDynamic.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectStatic.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectPlayerMySelfView.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectView.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Map\GameMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Map\GameMapView.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectPlayerBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectPlayerBasicBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectPlayerBasicBulletView.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectMonsterBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectMoveAimingBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectMoveAimingBulletView.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectDirectionalBullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectDirectionalBulletView.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectMonsterView.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectBoss.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\ObjectBossView.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

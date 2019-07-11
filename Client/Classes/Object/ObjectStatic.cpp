@@ -1,0 +1,25 @@
+#include "ObjectStatic.h"
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+Object_Static::Object_Static()
+{
+}
+
+Object_Static::~Object_Static()
+{
+}
+
+bool Object_Static::initialise(const Object_Init *init)
+{
+	if (!XObject::initialise(init))
+		return false;
+
+	return true;
+}
+
+void Object_Static::cleanup( )
+{
+	XObject::cleanup();
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////

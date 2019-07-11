@@ -1,0 +1,26 @@
+#ifndef __XOBJECT_MOVE_AIMING_BULLET_VIEW_H__
+#define __XOBJECT_MOVE_AIMING_BULLET_VIEW_H__
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+#include "Prereqs.h"
+#include "ObjectView.h"
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+class Object_Enemy_Beam_Bullet_View : public Object_View
+{
+public:
+	Object_Enemy_Beam_Bullet_View(XObject *object);
+	virtual ~Object_Enemy_Beam_Bullet_View();
+
+	static Object_Enemy_Beam_Bullet_View *create(XObject *object);
+
+public:
+	bool init();
+
+
+};
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+#endif
